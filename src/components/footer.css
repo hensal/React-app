@@ -1,0 +1,41 @@
+/* Footer.css */
+.footer-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;  /* To make footer to the buttom of the page */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.social-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+  gap: 20px;
+}
+
+.social-icon {
+  font-size: 20px;
+}
+
+/*Adjustments for better visibility*/
+.footer-container p {
+  margin: 0; /* Remove default margin for the paragraph*/
+}
+
+/* Add some space to the top of the copyright text */
+.copyright {
+  margin-top: 10px;
+}

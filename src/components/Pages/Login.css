@@ -1,0 +1,113 @@
+/* Login.css */
+
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center; /* Center text inside the container */
+}
+
+.login-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-form label {
+  display: inline-block;
+  width: 92%;   /* email and password label */ 
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: left;
+  color: #555;
+}
+
+.login-form input {
+  width: calc(100% - 20px); /* Adjusted width to accommodate the password visibility icon */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block; /* Ensures inline-block behavior */
+}
+
+.password-container {
+  position: relative;
+  display: inline-block; /* Ensures inline-block behavior */
+  width: 100%;
+}
+
+.password-container .show-password-icons {
+  position: absolute;
+  top: 34%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #777;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  /*flex-wrap: wrap;  Allow items to wrap to the next line if needed */
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  color: #555; 
+}
+
+.forgot-password {
+  color: purple;
+  cursor: pointer;
+  margin-left: 5px; 
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: calc(100% - 20px);  /* Adjusted width to accommodate padding with input textfield*/
+  padding: 12px; 
+  background-color: purple;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a1b9a;
+}
+
+.new-users a {
+  color: purple;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.new-users a:hover {
+  text-decoration: underline;
+}
