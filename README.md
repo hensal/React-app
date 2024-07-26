@@ -1,3 +1,5 @@
+This the simple demo of react application.
+
 ![react_app](https://github.com/user-attachments/assets/e8a5b8e5-ba35-459e-91a0-47540b524bf7)
 
 
